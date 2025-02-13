@@ -1,0 +1,145 @@
+body {
+    background-color:  #FFF8F4;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    color: #97ADB6;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #97ADB6;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bolder;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.cabecalho2 {
+    background-image: url(./assets/banner-lua.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 22px;
+}
+
+.sub-titulo {
+    margin-top: 22px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFF8F4;
+    font-weight: bolder;
+}
+
+h2 {
+    color:  #245E74;
+    margin-top: 10px;
+    font-size: 25px;
+    
+}
+
+main img {
+    width: 600px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-self: center;
+    border-radius: 8px;
+}
+
+span {
+    margin-top: 20px;
+    color:  #245E74;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 600px;
+}
+
+p {
+    margin-top: 20px;
+    color:  #245E74;
+    font-size: 22px;
+}
+
+.missao {
+    margin-top: 20px;
+    background-color: #97ADB6;
+    padding: 20px;
+}
+
+h3 {
+    color: #FFF8F4;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h4 {
+    margin-top: 15px;
+    color:  #FFF8F4;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #245E74;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer i {
+    color:  #FFF8F4;
+
+}
+
+footer p {
+    font-size: 15px;
+    color:  #FFF8F4;
+}
+
+@media (max-width: 600px) {
+    .apresentacao {
+        width: 95%;
+    }
+
+    .imagem {
+        width: 95%;
+    }
+}
